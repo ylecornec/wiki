@@ -35,9 +35,10 @@ conf_abs_path = os.path.abspath(__file__)
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
-  'sphinx_sitemap',
-  'sphinx_gitstamp',
-  'notfound.extension'
+    'sphinx_sitemap',
+    'sphinx_gitstamp',
+    'notfound.extension',
+    'recommonmark'
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -52,9 +53,9 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = 'Wiki'
-copyright = ''
-author = ''
+project = 'Kiwipedia'
+copyright = 'Kiwipedia team'
+author = 'Kiwipedia team'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
