@@ -10,6 +10,8 @@ integration and `Netlify`_ for continuous deployment.
 
    continuous-integration
    continuous-deployment
+   test_travis
+
 
 .. _Travis-CI: https://travis-ci.org/
 .. _Netlify: https://www.netlify.com/
