@@ -26,7 +26,7 @@ sys.path.insert(0, os.path.abspath('.'))
 
 # -- General configuration ------------------------------------------------
 
-html_baseurl = 'https://continuous-sphinx.netlify.com/'
+html_baseurl = 'https://kiwipedia.netlify.com/'
 
 # Absolute path of conf.py
 conf_abs_path = os.path.abspath(__file__)
@@ -52,9 +52,9 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = 'Continuous Sphinx'
-copyright = '2018, Jared Dillard'
-author = 'jdillard'
+project = 'Wiki'
+copyright = ''
+author = ''
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -112,8 +112,8 @@ html_theme_options = {
 
 html_context = {
   'display_github': True,
-  'github_user': 'jdillard',
-  'github_repo': 'continuous-sphinx',
+  'github_user': 'ylecornec',
+  'github_repo': 'wiki',
   'github_version': 'master/source/'
 }
 
@@ -152,7 +152,7 @@ html_copy_source = False
 
 # Language to be used for generating the HTML full-text search index.
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'ContinuousSphinxDoc'
+htmlhelp_basename = 'wiki'
 
 # -- Options for LaTeX output ---------------------------------------------
 
@@ -174,6 +174,6 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-  (master_doc, 'ContinuousSphinx.tex', 'Continuous Sphinx Documentation',
-   'jdillard', 'manual'),
+  (master_doc, 'wiki.tex', 'wiki',
+   'author', 'manual'),
 ]

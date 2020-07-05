@@ -18,7 +18,7 @@ done
 
 # https://www.netlify.com/docs/api/#deploys
 echo "Retrieving Netlify deploy for Travis-CI build ${good_build}..."
-for row in $(curl -H "Authorization: Bearer $NETLIFY_PUBLISH_KEY" https://api.netlify.com/api/v1/sites/continuous-sphinx.netlify.com/deploys | jq -r '.[] | @base64'); do
+for row in $(curl -H "Authorization: Bearer $NETLIFY_PUBLISH_KEY" https://api.netlify.com/api/v1/sites/kiwipedia.netlify.com/deploys | jq -r '.[] | @base64'); do
     _jq() {
         echo ${row} | base64 --decode | jq -r ${1}
     }
@@ -32,4 +32,4 @@ done
 
 # https://www.netlify.com/docs/api/#deploys
 echo "Publishing Netlify build ${good_deploy}..."
-curl -X POST -H "Authorization: Bearer $NETLIFY_PUBLISH_KEY" -d "{}" "https://api.netlify.com/api/v1/sites/continuous-sphinx.netlify.com/deploys/${good_deploy}/restore"
+curl -X POST -H "Authorization: Bearer $NETLIFY_PUBLISH_KEY" -d "{}" "https://api.netlify.com/api/v1/sites/kiwipedia.netlify.com/deploys/${good_deploy}/restore"
