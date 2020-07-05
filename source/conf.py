@@ -12,6 +12,19 @@ import shlex
 
 # Redefine supported_image_types for the HTML builder
 from sphinx.builders.html import StandaloneHTMLBuilder
+from recommonmark.transform import AutoStructify
+
+# github_doc_root = 'https://github.com/rtfd/recommonmark/tree/master/doc/'
+github_doc_root = 'https://kiwipedia.netlify.app/'
+
+
+def setup(app):
+    # app.add_config_value('recommonmark_config', {
+    #         'url_resolver': lambda url: github_doc_root + url,
+    #         'auto_toc_tree_section': 'Contents',
+    #         }, True)
+    app.add_transform(AutoStructify)
+
 StandaloneHTMLBuilder.supported_image_types = [
     'image/gif',
     'image/png',
@@ -71,7 +84,7 @@ release = 'latest'
 #
 # This is also used if you do content translation via gettext catalogs.
 # Usually you set "language" from the command line for these cases.
-language = 'en'
+language = 'fr'
 
 locale_dirs = ['../l10n/locales/']
 
@@ -102,11 +115,10 @@ html_theme_path = ["../_themes", ]
 
 html_theme_options = {
     'versions': [
-        ("latest", "/en/latest")
+        ("latest", "/fr/latest")
     ],
     'languages': [
-        ("en", "/en/latest"),
-        ("de", "/de/latest"),
+        ("fr", "/fr/latest"),
     ],
     'current_version': version
 }
@@ -178,3 +190,4 @@ latex_documents = [
   (master_doc, 'wiki.tex', 'wiki',
    'author', 'manual'),
 ]
+
