@@ -191,3 +191,4 @@ latex_documents = [
    'author', 'manual'),
 ]
 
+# suppress_warnings = [ 'misc.highlighting_failure' ]
