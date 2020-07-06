@@ -1,6 +1,6 @@
 # Recettes
 ## Apéritifs
-* [Cake salé](https://www.lapetiteokara.fr/wp-content/cache/wp-rocket/www.lapetiteokara.fr/recette-vegan-46-cake-sale-meilleure-recette/index.html_gzip)
+* [Cake salé](https://www.lapetiteokara.fr/recette-vegan-46-cake-sale-meilleure-recette/)
 ## Plats
 ## Desserts
 * [Brownie](https://perleensucre.com/brownie-vegan-sans-oeufs-sans-lait-sans-gluten/)
