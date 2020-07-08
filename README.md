@@ -2,7 +2,7 @@
 
 Markdown based wiki to collaboratively organise cooking receipes.
 
-The wiki is deployed [Here](https://kiwipedia.netlify.app/en/latest/).
+The wiki is deployed [Here](https://kiwipedia.netlify.app/).
 
 ## Installing Locally
 
