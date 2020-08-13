@@ -47,6 +47,7 @@
 * [Flan pâtissier](https://cuisine.journaldesfemmes.fr/recette/1018870-flan-patissier-vegan-sans-oeufs-sans-lait)
 
 ### Tartes
+* [Quiche aux courgettes](http://www.lafeestephanie.com/2019/07/quiche-aux-courgettes-une-tarte-salee.html)
 
 ### Biscuits
 
