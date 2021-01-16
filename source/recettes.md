@@ -62,4 +62,4 @@
 * [Madeleines](https://perleensucre.com/madeleines-sans-oeufs-sans-lait-vegan/?fbclid=IwAR0QQ5eCzsxh1-vLUn0gxRteZl-eI-cvnvnz-j2FChalsYJ4JDxskMxK1fk)
 * [Pâte à choux - à tester](http://www.hunaca-creation.com/pate-a-choux-vegan/)
 * [Gauffres - à retester](https://vegan-pratique.fr/recettes/gaufres/)
-
+* [Pain d'épices](./desserts/pain_epice.md)
